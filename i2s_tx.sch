@@ -542,17 +542,6 @@ Text GLabel 1500 5200 0    50   Input ~ 0
 I2S_OUT_56
 Text GLabel 1500 5400 0    50   Input ~ 0
 I2S_OUT_78
-$Comp
-L agg:CONN_02x06 J2
-U 1 1 5CFBAA51
-P 1450 2250
-F 0 "J2" H 1400 2465 50  0000 C CNN
-F 1 "CONN_02x06" H 1400 2374 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x06_P2.00mm_Vertical" H 1450 2250 50  0001 C CNN
-F 3 "" H 1450 2250 50  0001 C CNN
-	1    1450 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 2250 1600 2250
 Wire Wire Line
@@ -568,18 +557,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR03
 U 1 1 5CFBAA6B
-P 1100 2800
-F 0 "#PWR03" H 1100 2550 50  0001 C CNN
-F 1 "GND" H 1105 2627 50  0000 C CNN
-F 2 "" H 1100 2800 50  0001 C CNN
-F 3 "" H 1100 2800 50  0001 C CNN
-	1    1100 2800
+P 1650 2900
+F 0 "#PWR03" H 1650 2650 50  0001 C CNN
+F 1 "GND" H 1655 2727 50  0000 C CNN
+F 2 "" H 1650 2900 50  0001 C CNN
+F 3 "" H 1650 2900 50  0001 C CNN
+	1    1650 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 2750 1100 2800
-Wire Wire Line
-	1100 2750 1250 2750
 Text GLabel 1600 2250 2    50   Input ~ 0
 I2S_IN_12
 Text GLabel 1600 2350 2    50   Input ~ 0
@@ -686,4 +671,19 @@ Wire Wire Line
 Connection ~ 2900 1400
 Text GLabel 3050 1200 1    50   Input ~ 0
 +5V
+$Comp
+L agg:CONN_01x07 J2
+U 1 1 5CF9C40C
+P 1450 2250
+F 0 "J2" H 1483 2465 50  0000 C CNN
+F 1 "CONN_01x07" H 1483 2374 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical" H 1450 2250 50  0001 C CNN
+F 3 "" H 1450 2250 50  0001 C CNN
+	1    1450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2900 1650 2850
+Wire Wire Line
+	1650 2850 1550 2850
 $EndSCHEMATC
