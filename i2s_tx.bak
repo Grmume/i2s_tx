@@ -672,12 +672,12 @@ Connection ~ 2900 1400
 Text GLabel 3050 1200 1    50   Input ~ 0
 +5V
 $Comp
-L agg:CONN_01x07 J?
+L agg:CONN_01x07 J2
 U 1 1 5CF9C40C
 P 1450 2250
-F 0 "J?" H 1483 2465 50  0000 C CNN
+F 0 "J2" H 1483 2465 50  0000 C CNN
 F 1 "CONN_01x07" H 1483 2374 50  0000 C CNN
-F 2 "" H 1450 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical" H 1450 2250 50  0001 C CNN
 F 3 "" H 1450 2250 50  0001 C CNN
 	1    1450 2250
 	1    0    0    -1  
